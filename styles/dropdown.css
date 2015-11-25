@@ -1,0 +1,28 @@
+.c-dropdown {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  width: 300px;
+  position: relative;
+
+  &__trigger {
+    display: block;
+    height: 32px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__popup {
+    display: none;
+
+    &.is-open {
+      display: block;
+    }
+  }
+}

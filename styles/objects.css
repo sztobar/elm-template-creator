@@ -1,0 +1,30 @@
+:root {
+  --grid: 100% / 12;
+}
+
+.o-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &__item {
+
+    &--12 {
+      flex-basis: calc(var(--grid) * 12);
+      width: calc(var(--grid) * 12);
+    }
+
+    &--6 {
+      flex-basis: calc(var(--grid) * 6);
+    }
+
+    &--4 {
+      flex-basis: calc(var(--grid) * 4);
+    }
+
+    &--3 {
+      flex-basis: calc(var(--grid) * 3);
+    }
+  }
+
+}

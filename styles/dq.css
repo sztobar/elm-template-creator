@@ -1,0 +1,33 @@
+.c-form {
+  width: 500px;
+
+  &__input {
+    width: 100%;
+    color: black;
+  }
+
+  &__label {
+    width: 100%;
+  }
+
+  &__group {
+    width: 100%;
+  }
+
+  &__legend {
+    width: 100%;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    &--switch {
+      flex-direction: row-reverse;
+    }
+  }
+
+}
+

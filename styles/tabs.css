@@ -1,0 +1,41 @@
+@import './theme.css';
+
+.c-tabs {
+  display: flex;
+  justify-content: flex-start;
+
+  &__list {
+    width: 25%;
+    background-color: var(--main-color);
+    padding: 5px 0 5px 5px;
+  }
+
+  &__input {
+    height: 32px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+  }
+
+  &__content {
+    width: 100%;
+  }
+
+  &__tab {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid transparent;
+
+    &:hover {
+      background-color: var(--main-color-lightest) !important;
+    }
+    &.is-active {
+      background-color: var(--main-color-lighter);
+    }
+    &.is-edited {
+      border: 1px solid white;
+    }
+  }
+
+
+}

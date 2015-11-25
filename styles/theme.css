@@ -1,0 +1,11 @@
+/* based on:
+https://color.adobe.com/pl/create/color-wheel/?base=2&rule=Analogous&selected=0&name=M%C3%B3j%20motyw%20Color&mode=rgb&rgbvalues=0.5303963161869103,0.8410207980435878,1,0.4826606477300884,0.8777866505010415,0.91,0.5803963161869102,1,0.915261652862115,0.4826606477300884,0.91,0.7027543462893034,0.5303963161869103,1,0.639350820428985&swatchOrder=0,1,2,3,4
+*/
+
+:root {
+  --main-color: #94FFE9;
+  --main-color-darker: #7BE8B3;
+  --main-color-darkest: #87FFA3;
+  --main-color-lighter: #7BE0E8;
+  --main-color-lightest: #87D6FF;
+}
